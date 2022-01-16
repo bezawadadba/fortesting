@@ -9,6 +9,6 @@ locals {
   common_tags = {
     Service = local.service_name
     Owner   = local.owner
-    #Tag1 = "Terraform-Cloud-Demo1"
+    Tag1 = "Terraform-Cloud-Demo1"
   }
 }
