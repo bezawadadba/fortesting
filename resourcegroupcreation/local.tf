@@ -10,5 +10,6 @@ locals {
     Service = local.service_name
     Owner   = local.owner
     Tag1 = "Terraform-Cloud-Demo1"
+    Tag2 = "Terraform-Cloud-Demo2"
   }
 }
